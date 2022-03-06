@@ -27,7 +27,7 @@ Use suas habilidades e conhecimentos para explorar, tratar e transformar os dado
  ![image](https://user-images.githubusercontent.com/61653788/155604556-a9f9773f-67df-498c-aea8-3c37b013d3f3.png)
 
 
-### :film_strip: Alura Food
+### :poultry_leg: Alura Food
 *Objetivo*: A Alura Food tem interesse em expandir seu negócio entrando no mercado indiano. Para isso, ela precisa da sua ajuda na criação de métricas e análise dos dados disponibilizados para tomar a melhor decisão.
 
 #### :bulb: Analisando a base de dados
@@ -57,3 +57,22 @@ Os dados foram disponibilizados em json, que é um pouco complexo de se extrair 
 #### :bulb: Visualizações
 ![image](https://user-images.githubusercontent.com/61653788/156929086-3f97c4e2-e21c-48d1-a2e2-847d3e14d2cd.png)
 ![image](https://user-images.githubusercontent.com/61653788/156931853-1ceddfcf-b351-42c8-975c-726bca5bf76f.png)
+
+
+### :moneybag: Alura Skimo
+*Objetivo*: A Alura Skimo necessita acompanhar suas vendas através de um painel que comporte todas métricas necessárias.
+
+#### :bulb: Analisando a base de dados
+* :brain:	 Task 1:  Faturamento
+* :brain:	 Task 2: Ranking de produtos vendidos
+* :brain:	 Task 3: Vendedores que mais geram faturamento
+* :brain:	 Task 4: Custo
+* :brain:	 Task 5: Quantidade de vendas
+* :brain:	 Task 6: Lucro
+* :brain:	 Task 7: Categorias mais vendidas
+* :brain:	 Task 8: Ticket médio por venda
+
+#### :bulb: Extra
+* :brain:	 Task 1: Dashboard de vendedores e produtos
+* :brain:	 Task 2: Dashboard de produtos: análise de cenários
+* :brain:	 Task 3: Dashboard de produtos: previsão do faturamento
