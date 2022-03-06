@@ -31,15 +31,29 @@ Use suas habilidades e conhecimentos para explorar, tratar e transformar os dado
 *Objetivo*: A Alura Food tem interesse em expandir seu negócio entrando no mercado indiano. Para isso, ela precisa da sua ajuda na criação de métricas e análise dos dados disponibilizados para tomar a melhor decisão.
 
 #### :bulb: Analisando a base de dados
-* :brain:	Task 1: Filtrar por cidade, restaurantes e se tem reserva
-* :brain:	Task 2: Total de restaurantes na Índia
-* :brain:	Task 3: Preço médio
-* :brain:	Task 4: Média de avaliação
-* :brain:	Task 5: Porcentagem de restaurantes que tem ou não delivery online
-* :brain:	Task 6: Cidades que mais possuem restaurantes
-* :brain:	Task 7: Culinárias que mais são exploradas na Índia
-* :brain:	Task 8: Restaurantes por cidade e suas classificações
+
+Os dados foram disponibilizados em json, que é um pouco complexo de se extrair em python/sql, comecei trabalhando pelo PowerBI:
+
+*1* - Abri todos os arquivos no Powerbi. 
+*2*- Analisei que as informações estavam apenas dentro da coluna Restaurants.
+*3*- Extrai de todos os arquivos essa coluna principal e exclui as outras colunas que já vem por padrão pois não usaria. 
+*4*- Juntei os aquivos em uma tabela só.
+*5*- Expandi outras colunas necessárias para a análise e renomeei as colunas necessárias. 
+*6*- Exportei para CSV (vou deixar o arquivo salvo na pasta, caso alguém precise) para poder fazer a análise exploratória pelo SQL. 
+
+* :brain:	Task 1: Filtrar por cidade, restaurantes e se tem reserva:heavy_check_mark:
+* :brain:	Task 2: Total de restaurantes na Índia:heavy_check_mark:
+* :brain:	Task 3: Preço médio:heavy_check_mark:
+* :brain:	Task 4: Média de avaliação:heavy_check_mark:
+* :brain:	Task 5: Porcentagem de restaurantes que tem ou não delivery online:heavy_check_mark:
+* :brain:	Task 6: Cidades que mais possuem restaurantes:heavy_check_mark:
+* :brain:	Task 7: Culinárias que mais são exploradas na Índia:heavy_check_mark:
+* :brain:	Task 8: Restaurantes por cidade e suas classificações:heavy_check_mark:
 
 #### :bulb: Extra
-  * :brain:	 Task 1: Preço médio através das moedas BRL, USD e EUR.
-  * :brain:	 Task 2: Página de estudo sobre cada restaurante
+  * :brain:	 Task 1: Preço médio através das moedas BRL, USD e EUR.:heavy_check_mark:
+  * :brain:	 Task 2: Página de estudo sobre cada restaurante:heavy_check_mark:
+
+#### :bulb: Visualizações
+![image](https://user-images.githubusercontent.com/61653788/156929086-3f97c4e2-e21c-48d1-a2e2-847d3e14d2cd.png)
+![image](https://user-images.githubusercontent.com/61653788/156931853-1ceddfcf-b351-42c8-975c-726bca5bf76f.png)
