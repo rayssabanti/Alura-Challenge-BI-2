@@ -167,8 +167,35 @@ from Filmes
 
 	-- Separar o Genero Principal 
 
-select * from filmesGeneros
+select titulo, Generos
+from filmesGeneros
 
- select  top 1 with ties Titulo, Generos, Diretor, genero
+
+ select  top 1 with ties Titulo, Generos as GeneroPrincipal, Diretor, Genero
+						into FilmesGeneroPrincipal
 								 FROM filmesGeneros
 									order by ROW_NUMBER() OVER(PARTITION BY Titulo ORDER BY Titulo );
+
+
+select A.Titulo, A.GeneroPrincipal, A.Diretor, B.Lucro
+INTO FilmesGeneroPrincipal
+from FilmesGeneroPrincipal A 
+inner join Filmes B 
+ON A.Titulo = B.Titulo
+
+
+select GeneroPrincipal, sum(lucro) from FilmesGeneroPrincipal
+group by GeneroPrincipal
+order by sum(lucro)
+
+
+select * from [dbo].[FilmesGeneroPrincipal]
+select * from [dbo].[FilmesGeneros]
+
+update [FilmesGeneroPrincipal] 
+set GeneroPrincipal = 'Drama'
+where GeneroPrincipal = ' Drama'
+
+update [dbo].[FilmesGeneros]
+set Generos = 'História'
+where Generos = 'History'
