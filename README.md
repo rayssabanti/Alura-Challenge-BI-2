@@ -63,16 +63,14 @@ Os dados foram disponibilizados em json, que é um pouco complexo de se extrair 
 *Objetivo*: A Alura Skimo necessita acompanhar suas vendas através de um painel que comporte todas métricas necessárias.
 
 #### :bulb: Analisando a base de dados
-* :brain:	 Task 1:  Faturamento
-* :brain:	 Task 2: Ranking de produtos vendidos
-* :brain:	 Task 3: Vendedores que mais geram faturamento
-* :brain:	 Task 4: Custo
-* :brain:	 Task 5: Quantidade de vendas
-* :brain:	 Task 6: Lucro
-* :brain:	 Task 7: Categorias mais vendidas
-* :brain:	 Task 8: Ticket médio por venda
+* :brain:	 Task 1: Faturamento :heavy_check_mark:
+* :brain:	 Task 2: Ranking de produtos vendidos :heavy_check_mark:
+* :brain:	 Task 3: Vendedores que mais geram faturamento  :heavy_check_mark:
+* :brain:	 Task 4: Custo :heavy_check_mark: 
+* :brain:	 Task 5: Quantidade de vendas :heavy_check_mark:
+* :brain:	 Task 6: Lucro :heavy_check_mark:
+* :brain:	 Task 7: Categorias mais vendidas  :heavy_check_mark:
+* :brain:	 Task 8: Ticket médio por venda :heavy_check_mark: 
 
-#### :bulb: Extra
-* :brain:	 Task 1: Dashboard de vendedores e produtos
-* :brain:	 Task 2: Dashboard de produtos: análise de cenários
-* :brain:	 Task 3: Dashboard de produtos: previsão do faturamento
+![image](https://user-images.githubusercontent.com/61653788/157314454-2b8d01bd-ac78-4701-af28-0e2b978c1371.png)
+#### :bulb: Extra (to do)
